@@ -18,15 +18,26 @@ backend, bancos de dados e testes automatizados.
 
 ## 📍 Como executar
 
-Com Python instalado, execute na pasta do projeto:
+Na pasta do projeto, execute a demonstração:
 
+```bash
 python main.py
+```
 
-Os exemplos e as verificações serão executados no terminal.
+Para executar os testes:
+
+```bash
+python test_servicos.py
+```
+
+## 📂 Organização dos arquivos
+
+- main.py: dados fictícios e execução da demonstração.
+- servicos.py: funções com as operações do CRM.
+- test_servicos.py: dados de teste e verificações automatizadas.
 
 ## ⏳ Próximas etapas
 
-- Separar as funções, os dados de exemplo e os testes.
 - Implementar cadastro de clientes com validações.
 - Adicionar persistência em banco de dados.
 - Evoluir para uma aplicação web com Django.
